@@ -1,0 +1,29 @@
+body {
+	background-color: blanchedalmond;
+}
+#title {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	margin: auto;
+	background-color: burlywood;
+	border-radius: 10px;
+}
+#gameBoard {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+.gameSquare {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 25%;
+	height: 25vmin;
+	width: 25vmin;
+	border: 2px solid black;
+	font-size: 20vmin;
+	font-weight: bold;
+	background-color: lightblue;
+}
