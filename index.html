@@ -9,18 +9,36 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1 id="title">Tic Tac Toe</h1>
-    <div id="gameBoard">
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
-      <div class="gameSquare"></div>
+    <div id="mainGame" class="removeDisplay">
+      <h1 class="title">Tic Tac Toe</h1>
+
+      <div id="gameBoard">
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+        <div class="gameSquare"></div>
+      </div>
+      <div id="bottomSection">
+        <h3 id="gameText">Make a move</h3>
+        <button id="reset">RESET</button>
+      </div>
     </div>
-    <h3 id="gameText">Make a move</h3>
+
+    <div id="startingPage">
+      <div id="startBox">
+        <h1 id="startingPageTitle" style="font-size: 5vmax">Tic Tac Toe</h1>
+        <div id="nameBox">
+          <label>Player X: <input id="player1" placeholder="player1" /></label>
+          <label>Player O: <input id="player2" placeholder="player2" /></label>
+        </div>
+
+        <button id="start">Start</button>
+      </div>
+    </div>
   </body>
 </html>
